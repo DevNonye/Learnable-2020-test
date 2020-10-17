@@ -1,3 +1,3 @@
 import React from "react";
-import './nav.js';
+import '.';
 import './Landing.js';

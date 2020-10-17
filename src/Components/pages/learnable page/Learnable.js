@@ -1,6 +1,6 @@
 import React from 'react';
-import LandingNavBar from './Components/NavBars/LandingPage';
-import LandingPage from "./Components/Pages/Landing Page/LandingPage";
+import LandingNavBar from './Components/nav/landingPage';
+import LandingPage from "./Components/pages/landing Page/landingPage";
 
 
 

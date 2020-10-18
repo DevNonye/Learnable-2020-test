@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pages.css';
 import './media.css';
-import LearnableNav from './LearnableNav';
+import LearnableNav from './navigation';
 class SoftwareDevelopers extends React.Component {
     render() {
         return (
@@ -11,7 +11,7 @@ class SoftwareDevelopers extends React.Component {
                 <section className="software-intro">
                     <h1 id="software-intro-head">The Learnable Software Developer</h1>
                     <div id="software-intro-img">
-                        <img src={require('./stand-project/softdev.png')} alt="softdev"/>
+                        <img src={require('./images/softdev.png')} alt="softdev"/>
                     </div>
                     <article id="software-intro-text">
                         <p>
@@ -37,7 +37,7 @@ class SoftwareDevelopers extends React.Component {
                    </q>
                 </article>
                 <section className="software-expectations">
-                    <img src={require('./stand-project/softdev2.png')}alt="soft"/>
+                    <img src={require('./images/softdev2.png')}alt="soft"/>
                     <article>
                         <h2>
                             We Expect You To...

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pages.css';
 import './media.css';
-import LearnableNav from './LearnableNav';
+import LearnableNav from './navigation';
 
 
 class ProductDesign extends React.Component {
@@ -12,7 +12,7 @@ class ProductDesign extends React.Component {
                 <section className="product-intro">
                     <h1 id="product-intro-head">The Learnable Software Developer</h1>
                     <div id="product-intro-img">
-                        <img src={require('./stand-project/softdev.png')} id="product-img" alt="software"/>
+                        <img src={require('./images/softdev.png')} id="product-img" alt="software"/>
                     </div>
                     <article id="product-intro-text">
                         <p>
@@ -45,7 +45,7 @@ class ProductDesign extends React.Component {
                    <span>- Macklemore</span>
                 </article>
                 <section className="product-expectations">
-                    <img src={require('./stand-project/productdev.png')} alt="product"/>
+                    <img src={require('./images/productdev.png')} alt="product"/>
                     <article>
                         <h2>
                             We Expect You To...
@@ -82,7 +82,7 @@ class ProductDesign extends React.Component {
                     </article>
                 </section>
                 <section className="subscribe-section" id="subscribe-section">
-                    <img src={require("./stand-project/scrollup.png")} alt="new"/>
+                    <img src={require("./images/scrollup.png")} alt="new"/>
                     <div style={{backgroundColor:"#EAC435"}}>
                         <h2>Stay Up To Date On What We Are Doing And New Learning Opportunities</h2>
                         <form>
